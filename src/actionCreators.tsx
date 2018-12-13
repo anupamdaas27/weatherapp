@@ -1,4 +1,6 @@
-import { any } from "prop-types";
+import "isomorphic-fetch";
+import promise from 'es6-promise';
+promise.polyfill()
 
 export const GET_FIVE_DAY_WEATHER = "GET_FIVE_DAY_WEATHER";
 
